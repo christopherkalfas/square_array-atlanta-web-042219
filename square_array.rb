@@ -8,8 +8,7 @@
 # end
 
 def square_array(array)
-  array.collect do |num|
-    num * num
+  array.collect {|num| num * num}
   end 
 end 
   
