@@ -7,7 +7,7 @@
 #   return squared_array
 # end
 
-def squared_array(array)
+def square_array(array)
   array.collect do |num|
     num * num
   end 
